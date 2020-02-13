@@ -1,0 +1,27 @@
+@import './default.less';
+@import './loading.less';
+.container {
+  .nav-left {
+    min-width: 180px;
+    background-color: #001529;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .main {
+    flex: 1;
+    height: calc(100vh);
+    background-color: @colorL;
+    overflow: auto;
+  }
+
+  .content {
+    position: relative;
+    padding: 20px;
+  }
+}
+
+.spinWrap {
+  margin: auto;
+}
