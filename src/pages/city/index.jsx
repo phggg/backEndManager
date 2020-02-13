@@ -7,6 +7,9 @@ const { Item: FormItem } = Form
 const { Option } = Select;
 
 export default class index extends Component {
+  componentDidMount () {
+
+  }
   // 开通城市
   handleOpenCity = () => {
 
